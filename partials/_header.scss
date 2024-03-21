@@ -37,6 +37,44 @@ header {
     }
   }
 }
+@media (max-width: 484px) {
+  header {
+    padding: 0.5rem 1rem;
+    padding-right: 1rem;
+    padding-left: 0.5rem;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+      width: 100px;
+      height: 40px;
+      object-fit: contain;
+    }
+    .css-btn {
+      background-color: #00bf6b;
+      color: black;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      p {
+        display: none;
+      }
+      .bx {
+        font-size: 1.5rem;
+      }
+      &:hover {
+        border: 1px solid gray;
+        background-color: rgb(92, 166, 92);
+        transition: 0.5s;
+      }
+    }
+  }
+}
 @media (max-width: 360px) {
   header {
     padding: 0.5rem 1rem;
