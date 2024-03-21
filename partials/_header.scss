@@ -5,14 +5,20 @@ header {
   right: 0%;
   top: 0%;
   border-bottom: 0.2px solid rgb(219, 219, 219);
-  padding: 0.5rem 4rem;
+  padding: 0.5rem 1rem;
+  padding-right: 4rem;
   background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  img {
+    width: 200px;
+    height: 40px;
+    object-fit: contain;
+  }
   .css-btn {
-    background-color: #00bf6b;
-    color: black;
+    background-color: #ff0173;
+    color: white;
     padding: 0.5rem 1rem;
     border-radius: 5px;
     cursor: pointer;
@@ -34,10 +40,17 @@ header {
 @media (max-width: 360px) {
   header {
     padding: 0.5rem 1rem;
+    padding-right: 1rem;
+    padding-left: 0.5rem;
     background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    img {
+      width: 100px;
+      height: 40px;
+      object-fit: contain;
+    }
     .css-btn {
       background-color: #00bf6b;
       color: black;
