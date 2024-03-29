@@ -27,7 +27,7 @@ doneBtn.addEventListener("click",function(){
   shareForm.style.display="none"
   overlay.style.display="none"
 })
-input.textContent="index.html"
+input.textContent="https://93-css-scan-clone.vercel.app/"
 const contentToCopy=input.textContent
 copyContent.addEventListener("click",function(){
   if(navigator.clipboard.writeText(contentToCopy)){
